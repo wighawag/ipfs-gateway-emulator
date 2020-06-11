@@ -1,13 +1,13 @@
 const Lws = require('lws')
 
 /**
- * @module local-web-server
+ * @module ipfs-gateway-emulator
  */
 
 /**
-  * @alias module:local-web-server
+  * @alias module:ipfs-gateway-emulator
   */
-class LocalWebServer extends Lws {
+class IPFSGatewayEmulator extends Lws {
   _getDefaultConfig () {
     return Object.assign(super._getDefaultConfig(), {
       moduleDir: [ '.', __dirname ],
@@ -16,4 +16,4 @@ class LocalWebServer extends Lws {
   }
 }
 
-module.exports = LocalWebServer
+module.exports = IPFSGatewayEmulator
