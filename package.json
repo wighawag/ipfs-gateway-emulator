@@ -1,6 +1,6 @@
 {
   "name": "ipfs-gateway-emulator",
-  "version": "4.2.1",
+  "version": "4.2.1-ipfs.1",
   "description": "A server emulating ipfs gateway behavior forked from local-web-server",
   "repository": "https://github.com/wighawag/local-web-server",
   "bin": {
@@ -55,7 +55,8 @@
     "lws-rewrite": "^3.1.1",
     "lws-spa": "^3.0.0",
     "lws-static": "^2.0.0",
-    "node-version-matches": "^2.0.1"
+    "node-version-matches": "^2.0.1",
+    "slash": "^3.0.0"
   },
   "devDependencies": {
     "coveralls": "^3.1.0",
